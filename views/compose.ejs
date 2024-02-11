@@ -1,0 +1,14 @@
+<%- include("header") -%>
+  <h1><%= title %></h1>
+  <form class="item" action="/post" method="POST">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Title</label>
+      <input type="text" name="title" autocomplete="off" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Post</label>
+      <textarea  name="content" autocomplete="off" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+    <button type="submit" class="btn btn-dark my-3">Publish</button>
+    </div>
+  </form>
+<%- include("footer") -%>

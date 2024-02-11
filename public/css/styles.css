@@ -1,0 +1,16 @@
+a.nav-link {
+  letter-spacing: 5px;
+}
+
+a.nav-link:hover {
+  color: #45CFDD !important;
+}
+
+main {
+  min-height: 80vh;
+}
+
+footer{
+	bottom: 0;
+  background-color: #F2EAD3;
+}
