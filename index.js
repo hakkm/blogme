@@ -65,7 +65,7 @@ app.get("/about", (req, res)=>{
 })
 
 app.get("/compose", (req, res)=>{
-  res.render("compose", {title: "About", content: aboutText})
+  res.render("compose", {title: "New Post", content: aboutText})
 })
 
 app.post("/post", (req, res)=>{
